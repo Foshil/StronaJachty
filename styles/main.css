@@ -1,0 +1,80 @@
+body {
+    width: 900px;
+    margin: 0 auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.flex {
+    display: flex;
+}
+
+.custom_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 0 0 20px;
+}
+
+.custom_flex p {
+    margin: 10px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+} 
+
+.menu a {
+    text-decoration: none;
+    color: rgb(59, 59, 255);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.description h1, h2 {
+    color: rgb(59,59,255);
+    margin: 0;
+}
+
+.description img {
+    width: 300px;
+}
+
+.ship {
+    display: flex;
+    padding: 10px;
+    border: 1px solid grey;
+    margin: 20px 0;
+}
+
+.check_display {
+    display: none;
+}
+
+.modal {
+    position: relative;
+    left: -50%;
+    background-color: rgb(98, 161, 255);
+    width: 800px;
+    height: 300px;
+    padding: 5px 30px 40px 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.modal_wrapper {
+    position: fixed;
+    left: 50%;
+    top: 20%;
+}
+
+
